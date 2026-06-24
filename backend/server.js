@@ -7,7 +7,7 @@ import { registerRoutes } from "./routes.js";
 const app = express();
 const db = initDb(settings.databaseUrl);
 
-app.use(cors({ origin: settings.frontendOrigin.split(","), credentials: true }));
+app.use(cors({ origin: settings.frontendOrigin , credentials: true }));
 app.use(express.json());
 app.set("trust proxy", true);
 
