@@ -8,6 +8,12 @@ This project is a full-stack transaction scoring application built with:
 - Frontend: React + Vite
 - Deployable on Render/Vercel by separating backend and frontend services
 
+## Live Demo
+
+- **Frontend (production):** https://institute-of-digital-risk-ten.vercel.app/
+
+ 
+
 ## Backend Structure
 
 - `backend/server.js`: Express server setup, CORS, JSON parsing, and rate limiting
@@ -102,5 +108,5 @@ npm install
 npm run dev
 ```
 
-4. Access the frontend at `http://localhost:5173`
+4. Access the frontend at `http://localhost:5173`  
  
