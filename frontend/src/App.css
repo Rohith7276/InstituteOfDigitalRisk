@@ -1,0 +1,117 @@
+.app-shell {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.app-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+}
+
+nav button {
+  margin-right: 0.5rem;
+  padding: 0.75rem 1rem;
+  border: none;
+  background: #243b55;
+  color: #f5f7ff;
+  border-radius: 0.75rem;
+  cursor: pointer;
+}
+
+nav button.active,
+nav button:hover {
+  background: #4479ff;
+}
+
+.app-main {
+  background: #11203a;
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+.form-grid {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+label {
+  display: grid;
+  gap: 0.5rem;
+}
+
+input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #2c3f5a;
+  border-radius: 0.75rem;
+  background: #162645;
+  color: #f5f7ff;
+}
+
+button[type="submit"] {
+  width: fit-content;
+  padding: 0.85rem 1.25rem;
+  border-radius: 0.75rem;
+  background: #27a8ff;
+  color: #fff;
+  border: none;
+}
+
+.notice {
+  padding: 1rem;
+  border-radius: 0.75rem;
+}
+
+.notice.success {
+  background: #124b2f;
+  color: #c7f3d7;
+}
+
+.notice.error {
+  background: #5d1f24;
+  color: #ffdad6;
+}
+
+.summary-card,
+.leaderboard {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.summary-card {
+  background: #0f1a32;
+  border: 1px solid #1c2b48;
+  border-radius: 0.85rem;
+  padding: 1rem;
+}
+
+.summary-card p {
+  margin: 0.5rem 0;
+}
+
+.leaderboard th,
+.leaderboard td {
+  padding: 0.9rem 1rem;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.leaderboard th {
+  text-align: left;
+  color: #a9c1ff;
+}
+
+.leaderboard tbody tr:hover {
+  background: rgba(255,255,255,0.04);
+}

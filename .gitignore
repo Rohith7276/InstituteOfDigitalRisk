@@ -1,0 +1,14 @@
+# root
+node_modules/
+.vscode/
+.env
+*.log
+
+# backend
+backend/__pycache__/
+backend/data.db
+backend/.env
+
+# frontend
+frontend/node_modules/
+frontend/dist/
