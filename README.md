@@ -6,11 +6,12 @@ This project is a full-stack transaction scoring application built with:
 - Backend: Node.js, Express.js
 - Database: SQLite by default, PostgreSQL ready via `DATABASE_URL`
 - Frontend: React + Vite
-- Deployable on Render/Vercel by separating backend and frontend services
+- Deployed on Render/Vercel by separating backend and frontend services
 
 ## Live Demo
 
-- **Frontend (production):** https://institute-of-digital-risk-ten.vercel.app/
+- **Frontend (production):** https://institute-of-digital-risk-ten.vercel.app
+- **Backend (production):** https://instituteofdigitalrisk.onrender.com
 
  
 
